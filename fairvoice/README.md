@@ -1,12 +1,12 @@
 # FairVoice: Bias and Explainability in Speech Emotion Recognition
 
-## 🎯 Project Overview
+## Project Overview
 
 **FairVoice** is a groundbreaking research project that addresses critical ethical concerns in Speech Emotion Recognition (SER) systems. As SER technologies become increasingly deployed in healthcare, education, and customer support applications, evidence reveals that these systems often exhibit systematic biases across gender, accent, and ethnicity, leading to inconsistent and potentially unfair emotional predictions.
 
 This project pioneers the development of fair, interpretable, and trustworthy emotion recognition models that not only achieve high accuracy but also behave equitably across diverse demographic groups. Through comprehensive bias assessment, advanced mitigation strategies, and explainability analysis, FairVoice contributes to building more ethical and transparent AI systems for speech processing.
 
-## 🌟 Key Innovations
+## Key Innovations
 
 - **Comprehensive Bias Assessment**: Multi-dimensional analysis across gender, ethnicity, and accent
 - **Advanced Mitigation Strategies**: Data balancing, adversarial debiasing, and reweighting techniques
@@ -14,7 +14,7 @@ This project pioneers the development of fair, interpretable, and trustworthy em
 - **Fairness-Accuracy Trade-off Analysis**: Quantified understanding of fairness interventions
 - **Reproducible Benchmarks**: Transparent, ethically sound evaluation protocols
 
-## 📋 Project Goals
+## Project Goals
 
 1. **Assess bias and fairness** in standard SER models across speaker demographics
 2. **Implement bias mitigation strategies** including data balancing, adversarial debiasing, and reweighting
@@ -22,7 +22,7 @@ This project pioneers the development of fair, interpretable, and trustworthy em
 4. **Quantify the trade-off** between fairness and accuracy
 5. **Produce transparent, reproducible, and ethically sound SER benchmarks**
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 fairvoice/
@@ -58,7 +58,7 @@ fairvoice/
 └── benchmarks/           # Fairness benchmarks
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -106,13 +106,13 @@ python scripts/explainability/generate_shap_plots.py --model_path outputs/models
 python scripts/explainability/generate_gradcam.py --model_path outputs/models/fair_model.pth
 ```
 
-## 📊 Datasets
+## Datasets
 
 - **CREMA-D**: Includes gender and ethnicity labels
 - **RAVDESS**: Gender-balanced emotional speech dataset
 - **Emo-DB**: European speech dataset for cross-cultural bias testing
 
-## 🔬 Research Contributions
+## Research Contributions
 
 This project contributes to the field through:
 
@@ -122,7 +122,7 @@ This project contributes to the field through:
 4. **Fairness Benchmarks**: Reproducible evaluation protocols for SER fairness
 5. **Ethical AI Framework**: Guidelines for building fair SER systems
 
-## 📝 Expected Deliverables
+## Expected Deliverables
 
 - ✅ Trained baseline and fairness-aware models
 - ✅ Bias and fairness reports (tables + visualizations)
@@ -130,17 +130,16 @@ This project contributes to the field through:
 - ✅ Full technical report or paper (6-8 pages)
 - ✅ Reproducibility package (scripts, configs, dataset splits)
 
-## 🤝 Contributing
+## Contributing
 
 This is a research project focused on ethical AI. Contributions that improve fairness, transparency, or reproducibility are welcome.
 
-## 📄 License
+## License
 
 [Specify license]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - CREMA-D, RAVDESS, and Emo-DB dataset creators
 - Fairlearn and AIF360 communities
 - SHAP and Captum developers
-

@@ -1,12 +1,12 @@
 # LightVision: Lightweight CNNs for Real-World Image Classification
 
-## 🎯 Project Overview
+## Project Overview
 
 **LightVision** is a comprehensive research project that addresses the critical challenge of deploying accurate image classification models in low-resource environments. While modern deep learning models achieve state-of-the-art performance, they often require substantial computational resources that make them impractical for edge devices, mobile applications, or resource-constrained settings.
 
 This project pioneers an empirical, statistically rigorous comparison of model compression techniques—knowledge distillation (KD), quantization-aware training (QAT), and pruning—on realistic small-scale datasets. By evaluating these techniques individually and in combination, LightVision provides actionable insights for practitioners deploying vision models in production environments.
 
-## 🌟 Key Innovations
+## Key Innovations
 
 - **Comprehensive Compression Framework**: Unified evaluation of KD, QAT, and pruning techniques
 - **Empirical Rigor**: Statistically rigorous comparisons with multiple runs and significance testing
@@ -15,7 +15,7 @@ This project pioneers an empirical, statistically rigorous comparison of model c
 - **Deployment Artifacts**: Production-ready models for Raspberry Pi and Android devices
 - **Reproducibility-First**: Complete workflow with fixed seeds, versioned datasets, and detailed documentation
 
-## 📋 Project Goals
+## Project Goals
 
 1. **Implement and train** baseline teacher (high-capacity) and student (lightweight) models
 2. **Apply compression techniques** including knowledge distillation, QAT, and pruning (structured/unstructured) separately and in combinations
@@ -23,7 +23,7 @@ This project pioneers an empirical, statistically rigorous comparison of model c
 4. **Demonstrate deployment** on target devices (Raspberry Pi or Android via PyTorch Mobile / TFLite)
 5. **Produce reproducible artifacts** including code, dataset splits, and a publication-ready report with ablations and statistical tests
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 lightvision/
@@ -78,7 +78,7 @@ lightvision/
     └── android/          # Android deployment
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -164,7 +164,7 @@ python scripts/evaluation/benchmark_hardware.py \
     --device raspberry_pi
 ```
 
-## 📊 Datasets
+## Datasets
 
 ### EuroSAT (RGB)
 - **Description**: Sentinel-2 satellite images for land use classification
@@ -180,7 +180,7 @@ python scripts/evaluation/benchmark_hardware.py \
 - **Image Size**: Variable (resized to 224×224)
 - **Download**: [TrashNet Dataset](https://github.com/garythung/trashnet)
 
-## 🔬 Research Contributions
+## Research Contributions
 
 This project contributes to the field through:
 
@@ -190,7 +190,7 @@ This project contributes to the field through:
 4. **Reproducibility**: Complete workflow with fixed seeds and versioned artifacts
 5. **Practical Insights**: Actionable recommendations for practitioners
 
-## 📝 Expected Deliverables
+## Expected Deliverables
 
 - ✅ Trained teacher and student models (baseline and compressed)
 - ✅ Comprehensive comparison tables (accuracy, FLOPs, model size, latency, energy)
@@ -200,7 +200,7 @@ This project contributes to the field through:
 - ✅ Publication-ready technical report (6-8 pages)
 - ✅ Reproducibility package (code, configs, dataset splits)
 
-## 🎓 Publication Readiness
+## Publication Readiness
 
 This project is designed to produce a high-impact publication with:
 
@@ -210,18 +210,17 @@ This project is designed to produce a high-impact publication with:
 - **Reproducibility**: Complete codebase with fixed seeds and documentation
 - **Practical Relevance**: Real-world datasets and deployment scenarios
 
-## 🤝 Contributing
+## Contributing
 
 This is a research project. For questions or contributions, please refer to the implementation guide.
 
-## 📄 License
+## License
 
 [Specify license]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - EuroSAT and TrashNet dataset creators
 - PyTorch and TensorFlow communities
 - ONNX Runtime and TFLite teams
 - Open-source compression research community
-

@@ -1,12 +1,12 @@
 # MultiSense: Multimodal Deep Learning for Emotion Understanding
 
-## 🎯 Project Overview
+## Project Overview
 
 **MultiSense** is a groundbreaking research project that advances emotion understanding beyond unimodal limitations by integrating visual, audio, and textual cues. While existing emotion recognition systems typically focus on a single modality, MultiSense pioneers a comprehensive multimodal framework that exploits cross-modal synergy and temporal dynamics to achieve superior emotion classification performance.
 
 This project develops and evaluates a suite of multimodal architectures, comparing unimodal, bimodal, and trimodal approaches across different fusion strategies. By providing a reproducible benchmark and contributing to open, explainable AI research, MultiSense addresses the critical need for more robust and interpretable emotion recognition systems.
 
-## 🌟 Key Innovations
+## Key Innovations
 
 - **Multimodal Integration**: Seamless fusion of vision, speech, and linguistic modalities
 - **Fusion Strategy Comparison**: Comprehensive evaluation of early, late, and hybrid fusion approaches
@@ -15,7 +15,7 @@ This project develops and evaluates a suite of multimodal architectures, compari
 - **Reproducible Benchmark**: Complete workflow for multimodal emotion recognition research
 - **Explainability**: Interpretable attention maps and feature visualizations
 
-## 📋 Project Goals
+## Project Goals
 
 1. **Combine vision, speech, and linguistic modalities** for emotion recognition
 2. **Compare unimodal, bimodal, and trimodal models** for emotion classification
@@ -24,7 +24,7 @@ This project develops and evaluates a suite of multimodal architectures, compari
 5. **Contribute to open, explainable AI research** with interpretable attention visualizations
 6. **Produce publication-ready results** with statistical analysis and ablation studies
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 multisense/
@@ -77,7 +77,7 @@ multisense/
     └── reports/          # Generated reports
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -139,7 +139,7 @@ python scripts/evaluation/evaluate_models.py \
     --output_dir outputs/reports
 ```
 
-## 📊 Datasets
+## Datasets
 
 ### CREMA-D
 - **Modalities**: Audio, Video, Text (transcripts)
@@ -159,7 +159,7 @@ python scripts/evaluation/evaluate_models.py \
 - **Size**: ~12,000 utterances
 - **Format**: Multimodal conversational data
 
-## 🔬 Research Contributions
+## Research Contributions
 
 This project contributes to the field through:
 
@@ -170,7 +170,7 @@ This project contributes to the field through:
 5. **Explainability Analysis**: Interpretable attention maps and feature visualizations
 6. **Statistical Rigor**: Multiple runs, significance testing, and confidence intervals
 
-## 📝 Expected Deliverables
+## Expected Deliverables
 
 - ✅ Trained unimodal, bimodal, and trimodal models
 - ✅ Comprehensive comparison tables (accuracy, F1-score, per-emotion metrics)
@@ -181,7 +181,7 @@ This project contributes to the field through:
 - ✅ Publication-ready technical report (6-8 pages)
 - ✅ Reproducibility package (code, configs, dataset splits)
 
-## 🎓 Publication Readiness
+## Publication Readiness
 
 This project is designed to produce a high-impact publication with:
 
@@ -191,18 +191,17 @@ This project is designed to produce a high-impact publication with:
 - **Reproducibility**: Complete codebase with fixed seeds and documentation
 - **Explainability**: Interpretable attention maps and feature analysis
 
-## 🤝 Contributing
+## Contributing
 
 This is a research project. For questions or contributions, please refer to the implementation guide.
 
-## 📄 License
+## License
 
 [Specify license]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - CREMA-D, RAVDESS, and IEMOCAP dataset creators
 - HuggingFace Transformers community
 - PyTorch and OpenCV teams
 - Multimodal learning research community
-

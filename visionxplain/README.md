@@ -1,12 +1,12 @@
 # VisionXplain: Interpretable Vision Transformers for Medical Imaging
 
-## 🎯 Project Overview
+## Project Overview
 
 **VisionXplain** is a pioneering research project that addresses the critical need for interpretable and trustworthy AI systems in medical imaging. While Vision Transformers (ViTs) have shown remarkable performance in medical image classification, their "black box" nature limits clinical adoption. This project develops an interpretable ViT-based framework that achieves high diagnostic accuracy while maintaining transparency and clinical trustworthiness through robust interpretability methods.
 
 By implementing and fine-tuning Vision Transformers and hybrid CNN-ViT architectures, and applying state-of-the-art explainability methods (Grad-CAM, Attention Rollout, Layer-wise Relevance Propagation), VisionXplain demonstrates that transformer-based models can be both accurate and interpretable for medical imaging applications.
 
-## 🌟 Key Innovations
+## Key Innovations
 
 - **Interpretable ViT Framework**: Comprehensive interpretability analysis for Vision Transformers in medical imaging
 - **Hybrid Architectures**: CNN-ViT hybrid models combining convolutional and transformer benefits
@@ -15,7 +15,7 @@ By implementing and fine-tuning Vision Transformers and hybrid CNN-ViT architect
 - **Reproducible Benchmark**: Standardized pipeline for medical AI research
 - **Statistical Rigor**: Multiple runs, significance testing, and confidence intervals
 
-## 📋 Project Goals
+## Project Goals
 
 1. **Implement and fine-tune** Vision Transformers (ViTs) and hybrid CNN-ViT architectures for medical image classification
 2. **Apply explainability methods** including Grad-CAM, Attention Rollout, and Layer-wise Relevance Propagation (LRP)
@@ -23,7 +23,7 @@ By implementing and fine-tuning Vision Transformers and hybrid CNN-ViT architect
 4. **Develop a reproducible, benchmarkable pipeline** for medical AI research
 5. **Produce publication-ready results** with statistical analysis and clinical validation
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 visionxplain/
@@ -74,7 +74,7 @@ visionxplain/
     └── reports/          # Generated reports
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -148,7 +148,7 @@ python scripts/evaluation/evaluate_models.py \
     --output_dir outputs/reports
 ```
 
-## 📊 Medical Imaging Tasks
+## Medical Imaging Tasks
 
 ### Chest X-Ray Classification
 - **Task**: Binary or multi-class classification (Normal, Pneumonia, COVID-19, etc.)
@@ -179,7 +179,7 @@ This project contributes to the field through:
 5. **Reproducible Benchmark**: Standardized evaluation protocol for medical AI
 6. **Statistical Rigor**: Multiple runs, significance testing, confidence intervals
 
-## 📝 Expected Deliverables
+## Expected Deliverables
 
 - ✅ Trained ViT, hybrid, and baseline models
 - ✅ Comprehensive comparison tables (accuracy, sensitivity, specificity, AUC)
@@ -190,7 +190,7 @@ This project contributes to the field through:
 - ✅ Publication-ready technical report (6-8 pages)
 - ✅ Reproducibility package (code, configs, dataset splits)
 
-## 🎓 Publication Readiness
+## Publication Readiness
 
 This project is designed to produce a high-impact publication with:
 
@@ -200,29 +200,29 @@ This project is designed to produce a high-impact publication with:
 - **Comprehensive Evaluation**: Accuracy, interpretability, and efficiency metrics
 - **Reproducibility**: Complete codebase with fixed seeds and documentation
 
-## 🏥 Clinical Applications
+## Clinical Applications
 
 - **Diagnostic Support**: AI-assisted diagnosis with interpretable explanations
 - **Education**: Teaching tool for medical students and residents
 - **Quality Assurance**: Verification of AI model decisions
 - **Research**: Understanding disease patterns through attention maps
 
-## ⚠️ Ethical Considerations
+## Ethical Considerations
 
 - **Patient Privacy**: All datasets must be de-identified
 - **Bias Assessment**: Evaluate model performance across patient demographics
 - **Clinical Validation**: Results should be validated by medical professionals
 - **Transparency**: Clear documentation of model limitations
 
-## 🤝 Contributing
+## Contributing
 
 This is a research project with potential clinical applications. Contributions that improve interpretability, clinical relevance, or reproducibility are welcome.
 
-## 📄 License
+## License
 
 [Specify license - consider medical data restrictions]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Medical imaging dataset creators and curators
 - Vision Transformer research community

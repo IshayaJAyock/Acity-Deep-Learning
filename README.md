@@ -2,7 +2,7 @@
 
 This repository contains four innovative deep learning research projects, each designed to address critical challenges and contribute to high-impact academic research. All projects follow best practices for reproducibility, statistical rigor, and publication readiness.
 
-## 📚 Projects Overview
+## Projects Overview
 
 ### 1. [LightVision](./lightvision/) - Lightweight CNNs for Real-World Image Classification
 **Researcher**: Enapa  
@@ -58,7 +58,7 @@ This repository contains four innovative deep learning research projects, each d
 
 **Status**: 🟢 Ready for Development
 
-## 🚀 Quick Start
+## Quick Start
 
 Each project has its own directory with:
 - Complete folder structure
@@ -86,7 +86,7 @@ Deep Learning/
 └── README.md             # This file
 ```
 
-## 🎯 Research Goals
+## Research Goals
 
 All projects are designed to:
 1. **Address Real-World Challenges**: Each project tackles practical problems in deep learning
@@ -95,7 +95,7 @@ All projects are designed to:
 4. **Promote Ethical AI**: Focus on fairness, interpretability, and transparency
 5. **Statistical Rigor**: Multiple runs, significance testing, and confidence intervals
 
-## 🔬 Common Themes
+## Common Themes
 
 - **Interpretability**: All projects include explainability analysis
 - **Reproducibility**: Version control, experiment tracking, fixed seeds
@@ -103,7 +103,7 @@ All projects are designed to:
 - **Statistical Rigor**: Multiple runs, significance testing, confidence intervals
 - **Publication Readiness**: Complete documentation and reproducibility packages
 
-## 📊 Expected Outcomes
+## Expected Outcomes
 
 Each project will deliver:
 - ✅ Trained models and evaluation results
@@ -113,7 +113,7 @@ Each project will deliver:
 - ✅ Reproducibility package (code, configs, dataset splits)
 - ✅ Deployment demonstrations (where applicable)
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 ### Common Technologies
 - **Deep Learning**: PyTorch, TensorFlow
@@ -138,7 +138,7 @@ All projects are structured for high-impact publication with:
 - **Reproducibility**: Fixed seeds, versioned datasets, complete documentation
 - **Code Quality**: Proper structure, documentation, and testing
 
-## 🤝 Contributing
+## Contributing
 
 Each project is managed independently. Please refer to individual project READMEs for contribution guidelines.
 
@@ -146,7 +146,7 @@ Each project is managed independently. Please refer to individual project README
 
 [Specify license for the repository]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset creators and curators
 - Open-source deep learning communities
