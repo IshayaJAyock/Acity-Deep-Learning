@@ -4,7 +4,7 @@ This document provides a quick setup guide for the Deep Learning Research Projec
 
 ##  Repository Overview
 
-This repository contains four independent research projects:
+This repository contains four independent research projects for Students to pick from.:
 
 1. **LightVision** - Lightweight CNNs for image classification
 2. **FairVoice** - Bias and explainability in speech emotion recognition
